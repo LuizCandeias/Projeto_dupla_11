@@ -42,3 +42,15 @@ nav ul li a {
 #sobre{
     padding: 10px;
 }
+
+.livro{
+    background-color: rgb(182, 182, 182);  
+    display: inline-block;
+    flex-wrap:wrap-reverse;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    align-items: stretch;
+    height: 50vh;
+    padding: 2px;
+    gap:;
+}
