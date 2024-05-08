@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    background-color: #cacfd7;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#sobre{
+    padding: 10px;
+}
