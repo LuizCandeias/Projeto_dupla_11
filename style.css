@@ -42,15 +42,43 @@ nav ul li a {
 #sobre{
     padding: 10px;
 }
+h2{
+    margin-left: 9px;
+}
+#livros{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "livro1" "livro2" "livro3" ;
+    row-gap: 50px;
+    column-gap: 5px;
+    justify-items: center;
+}
 
+#livro1{
+    grid-area: livro1;
+}
+#livro2{
+    grid-area: livro2;
+}
+#livro3{
+    grid-area: livro3;
+}
+#livro4{
+    grid-area: livro4;
+}
 .livro{
-    background-color: rgb(182, 182, 182);  
+    background-color: cacfd7;  
     display: inline-block;
-    flex-wrap:wrap-reverse;
-    justify-content: space-evenly;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
     align-items: stretch;
-    height: 50vh;
-    padding: 2px;
-    gap:10px;
+    height: 43vh;
+    padding: 3px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    
 }
