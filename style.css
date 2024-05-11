@@ -1,6 +1,22 @@
+@media(max-width: 450px) {
+#header{
+    width: 80%;
+    }
+    
+.livros img{
+      width: 80%;
+}
+#livros2 img{
+        width: 80%;
+}
+#livros3 img{
+        width: 80%;
+}
+
+}
 body{
     margin: 0px;
-    background-color: #cacfd7;
+    background-color: #ffffff;
 }
 header{
     background-color: #333;
@@ -18,6 +34,9 @@ header{
 
 h1 {
     margin: 0;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav ul {
@@ -40,46 +59,72 @@ nav ul li a {
 }
 
 #sobre{
-    padding: 10px;
+    padding: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 h2{
-    margin-left: 9px;
+    margin-left: 80px;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #livros{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-areas: "livro1" "livro2" "livro3" ;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "livro1" "livro2" "livro3";
     row-gap: 50px;
     column-gap: 5px;
     justify-items: center;
-}
-
-#livro1{
-    grid-area: livro1;
-}
-#livro2{
-    grid-area: livro2;
-}
-#livro3{
-    grid-area: livro3;
-}
-#livro4{
-    grid-area: livro4;
+    text-align: center;
 }
 .livro{
-    background-color: cacfd7;  
+    background-color:#ffffff;  
     display: inline-block;
     /* border: 1px solid rgb(0, 0, 0); */
     border-radius: 5px;
     align-items: stretch;
     height: 33vh;
+    width: 33vh;
     padding: 3px;
+    transition: all 1s linear;
 }
-a:hover{
+a{
     text-decoration: none;
     color: black;
-    
 }
 img{
-    
+    width: 225px;
+    height: 225px;
+    transition: transform 1s ease; 
+}
+img:hover{
+    transform: scale(1.2); 
+}
+#livros2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "livro4" "livro5" "livro6" ;
+    row-gap: 50px;
+    column-gap: 5px;
+    justify-items: center;
+    text-align: center;
+}
+#livros3{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "livro7" "livro8" "livro9" ;
+    row-gap: 50px;
+    column-gap: 5px;
+    justify-items: center;
+    text-align: center;
+}
+
+.contato{
+    text-align: center;
 }
