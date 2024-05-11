@@ -69,15 +69,16 @@ h2{
 .livro{
     background-color: cacfd7;  
     display: inline-block;
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     border-radius: 5px;
     align-items: stretch;
-    height: 43vh;
+    height: 33vh;
     padding: 3px;
 }
-a{
+a:hover{
     text-decoration: none;
     color: black;
+    
 }
 img{
     
