@@ -15,7 +15,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 #logo{
     width: 79px;
@@ -27,6 +26,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     color: black;
+    
 }
 
 nav ul {
@@ -77,12 +77,10 @@ h2{
 .livro{
     background-color:#ffffff;  
     display: inline-block;
-    /* border: 1px solid rgb(0, 0, 0); */
     border-radius: 5px;
     align-items: stretch;
     height: 33vh;
     width: 33vh;
-    padding: 3px;   
 }
 a{
     text-decoration: none;
@@ -96,6 +94,11 @@ a{
 .imglivro:hover{
     transform: scale(1.1); 
     border: 1px solid black;
+}
+#buttom{
+    width: 140px;
+    height: 25px;
+
 }
 #livros2{
     display: grid;
