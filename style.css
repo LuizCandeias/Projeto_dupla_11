@@ -100,7 +100,7 @@ a{
     height: 25px;
 
 }
-#livros2{
+#livros3{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "livro4" "livro5" "livro6" ;
@@ -109,7 +109,7 @@ a{
     justify-items: center;
     text-align: center;
 }
-#livros3{
+#livros2{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "livro7" "livro8" "livro9" ;
