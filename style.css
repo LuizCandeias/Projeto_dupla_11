@@ -74,6 +74,31 @@ h2{
     justify-items: center;
     text-align: center;
 }
+#livros3{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "livro4" "livro5" "livro6" ;
+    row-gap: 50px;
+    column-gap: 5px;
+    justify-items: center;
+    text-align: center;
+}
+#Compra{
+    
+}
+#livros2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "livro7" "livro8" "livro9" ;
+    row-gap: 50px;
+    column-gap: 5px;
+    justify-items: center;
+    text-align: center;
+}
+
+.contato{
+    text-align: center;
+}
 .livro{
     background-color:#ffffff;  
     display: inline-block;
@@ -98,27 +123,4 @@ a{
 #buttom{
     width: 140px;
     height: 25px;
-
-}
-#livros3{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "livro4" "livro5" "livro6" ;
-    row-gap: 50px;
-    column-gap: 5px;
-    justify-items: center;
-    text-align: center;
-}
-#livros2{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "livro7" "livro8" "livro9" ;
-    row-gap: 50px;
-    column-gap: 5px;
-    justify-items: center;
-    text-align: center;
-}
-
-.contato{
-    text-align: center;
 }
