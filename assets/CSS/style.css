@@ -1,32 +1,34 @@
-body{
+body {
     margin: 0px;
     background-color: #8ca8f5;
 }
-header{
+
+header {
     background-color: #ffffff;
     color: #fff;
     padding: 0px 0;
     align-items: center;
 }
 
-#header{
+#header {
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#logo{
+
+#logo {
     width: 79px;
     height: 74px;
 }
+
 h1 {
     margin: 0;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(0, 0, 0);
-    
 }
 
 nav ul {
@@ -47,97 +49,154 @@ nav ul li a {
     color: #000000;
 }
 
-#sobre{
+#sobre {
     padding: 80px;
     text-align: center;
     font-size: 30px;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
 }
 
-h2{
+h2 {
     margin-left: 80px;
     text-align: center;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
 }
-#livros{
+
+#livros, #livros3, #livros2 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "livro1" "livro2" "livro3";
     row-gap: 80px;
     column-gap: 5px;
     justify-items: center;
     text-align: center;
 }
-#livros3{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "livro4" "livro5" "livro6" ;
-    row-gap: 50px;
-    column-gap: 5px;
-    justify-items: center;
-    text-align: center;
-}
-#Compra{
+
+#Compra {
     padding-left: 40px;
 }
-#livros2{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "livro7" "livro8" "livro9" ;
-    row-gap: 50px;
-    column-gap: 5px;
-    justify-items: center;
+
+.contato {
     text-align: center;
 }
 
-.contato{
-    text-align: center;
-}
-.livro{
-    background-color:#8ca8f5;  
-    display: inline-block;
+.livro {
+    background-color: #8ca8f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 5px;
-    align-items: stretch;
-    height: 33vh;
-    width: 33vh;
+    padding: 10px; 
+    box-sizing: border-box;
+    width: 100%;
 }
-a{
+
+.livro h3 {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.livro p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+a {
     text-decoration: none;
     color: black;
 }
-.imglivro{
-    width: 225px;
-    height: 300px;
-    transition: transform 1s ease; 
+
+.imglivro {
+    width: 170px; 
+    height: 250px; 
+    transition: transform 1s ease;
 }
-.imglivro:hover{
-    transform: scale(1.1); 
+
+.imglivro:hover {
+    transform: scale(1.1);
     border: 1px solid black;
 }
-.h1{
+
+.h1 {
     padding-left: 45px;
 }
-#buttom1{
+
+button {
     width: 140px;
-    height: 25px;
-    margin-left:45px;
+    height: 35px;
+    margin: 10px;
     background-color: #becdf8;
+    border: none;
+    cursor: pointer;
+    margin-left: 45px
 }
-#buttom2{
-    width: 140px;
-    height: 25px;
-    margin-left:45px;
-    background-color: #becdf8;
+
+button a {
+    text-decoration: none;
+    color: black;
 }
-#buttom3{
-    width: 140px;
-    height: 25px;
-    margin-left:45px;
-    background-color: #becdf8;
+
+
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    #livros, #livros3, #livros2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #sobre {
+        padding: 20px 10px;
+        font-size: 18px;
+    }
+
+    #Compra {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .livro {
+        max-width: 225px;
+    }
+}
+
+@media (max-width: 480px) {
+    #sobre {
+        padding: 20px 5px;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .livro {
+        max-width: 225px;
+    }
+
+    button {
+        width: 120px;
+        height: 30px;
+    }
 }
