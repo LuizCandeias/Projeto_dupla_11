@@ -136,6 +136,11 @@ button {
     cursor: pointer;
     margin-left: 60px
 }
+#qrcode{
+    width: 200px;
+    margin-left: 45.3%;
+    
+}
 
 button a {
     text-decoration: none;
