@@ -124,7 +124,7 @@ a {
 }
 
 .h1 {
-    padding-left: 45px;
+    padding-left: 60px;
 }
 
 button {
@@ -134,7 +134,7 @@ button {
     background-color: #becdf8;
     border: none;
     cursor: pointer;
-    margin-left: 45px
+    margin-left: 60px
 }
 
 button a {
