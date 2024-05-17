@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: #ffffff;
+    background-color: #8ca8f5;
 }
 header{
     background-color: #ffffff;
@@ -25,7 +25,7 @@ h1 {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: black;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -100,7 +100,7 @@ h2{
     text-align: center;
 }
 .livro{
-    background-color:#ffffff;  
+    background-color:#8ca8f5;  
     display: inline-block;
     border-radius: 5px;
     align-items: stretch;
@@ -120,18 +120,24 @@ a{
     transform: scale(1.1); 
     border: 1px solid black;
 }
-#buttom{
+.h1{
+    padding-left: 85px;
+}
+#buttom1{
     width: 140px;
     height: 25px;
+    margin-left:85px;
+    background-color: #becdf8;
 }
-@media screen and (max-width: 508px) {
-    .livro {
-        width: 100%;
-    }
+#buttom2{
+    width: 140px;
+    height: 25px;
+    margin-left:85px;
+    background-color: #becdf8;
 }
-
-@media screen and (max-width: 480px) {
-    .livro {
-        width: 100%;
-    }
+#buttom3{
+    width: 140px;
+    height: 25px;
+    margin-left:85px;
+    background-color: #becdf8;
 }
